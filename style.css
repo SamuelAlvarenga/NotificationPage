@@ -1,0 +1,72 @@
+:root {
+  /* Primary Colors */
+  --c-red: hsl(1, 90%, 64%);
+  --c-blue: hsl(219, 85%, 26%);
+
+  /* Secondary Colors */
+  --c-white: hsl(0, 0%, 100%);
+  --c-vl-gb: hsl(210, 60%, 98%);
+  --c-lgb-a: hsl(211, 68%, 94%);
+  --c-lgb-b: hsl(205, 33%, 90%);
+  --c-gb: hsl(219, 14%, 63%);
+  --dark-gb: hsl(219, 12%, 42%);
+  --very-db: hsl(224, 21%, 14%);
+
+  /* Font-Size */
+  --fz-body: 1rem;
+  --ff-Jakarta: "Plus Jakarta Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--ff-Jakarta);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  margin: 5rem auto 0;
+}
+
+/* End main */
+
+/* Topper and notification count style */
+
+.topper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.topper .not-icon {
+  display: flex;
+  align-items: center;
+}
+
+.topper .not-icon h1 {
+  font-size: 1rem;
+}
+
+.topper .not-icon span {
+  font-size: 0.7rem;
+  margin: 0.6rem;
+  padding: 0.2rem 0.6rem;
+  color: var(--c-white);
+  background-color: var(--c-blue);
+  border-radius: 0.3rem;
+}
+
+.topper button {
+  background: none;
+  border: none;
+  color: var(--dark-gb);
+  cursor: pointer;
+  font-size: 0.7rem;
+}
+
+/* End Topper and notification count style */
