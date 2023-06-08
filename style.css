@@ -29,7 +29,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  width: 25rem;
+  width: 60rem;
   margin: 5rem auto 0;
 }
 
@@ -49,12 +49,12 @@ main {
 }
 
 .topper .not-icon h1 {
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 .topper .not-icon span {
-  font-size: 0.7rem;
-  margin: 0.6rem;
+  font-size: 1rem;
+  margin: 1rem;
   padding: 0.2rem 0.6rem;
   color: var(--c-white);
   background-color: var(--c-blue);
@@ -70,3 +70,65 @@ main {
 }
 
 /* End Topper and notification count style */
+
+/* Collums of notifications */
+
+.notification {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 95%;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  margin: 0.1rem auto;
+}
+
+.notification img.pics {
+  margin-left: auto;
+}
+
+.notification-dm p.txt {
+  color: var(--dark-gb);
+  font-size: 0.9rem;
+  width: 80%;
+  margin-left: 3.6rem;
+  padding: 0.4rem;
+  border: 1px solid #ebebeb;
+}
+
+.notification#active {
+  background-color: var(--c-lgb-a);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  /* border: 1px solid red; */
+}
+
+.notification h3 {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.notification h2 {
+  /* margin-left: 1rem; */
+}
+
+.notification h3 span {
+  font-weight: 800;
+  color: var(--dark-gb);
+}
+
+.notification h3 span.link {
+  font-weight: 800;
+  color: var(--c-blue);
+}
+
+.notification p {
+  text-align: inherit;
+  color: var(--dark-gb);
+}
+
+.notification img {
+  width: 2rem;
+  margin-right: 1rem;
+}
